@@ -47,7 +47,7 @@ const fetchAPI = async () => {
 // }
 
 function downloadImg(url, i) {
-  const outputPath = '/Users/juhiechandra/Interns-assign/Headout-Assignment/unsplash/my-video/public';
+  const outputPath = '/Users/juhiechandra/Interns-assign/Show-reel/unsplash/my-video/public';
   const collectionName = 'image';
   axios
     .get(url, {
